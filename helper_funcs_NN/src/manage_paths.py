@@ -15,8 +15,8 @@ def manage_paths() -> dict:
 
     # get path to top-level module
     path2module = os.path.join(os.path.dirname(os.path.abspath(__file__))
-                               .split('Introduction_to_NN')[0],
-                               'Introduction_to_NN')
+                               .split('NNcourse')[0],
+                               'NNcourse')
 
     # create datetime-dependent paths
     path_day = datetime.datetime.now().strftime('%Y_%m_%d')
