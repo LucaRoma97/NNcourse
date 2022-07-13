@@ -1,6 +1,6 @@
 # Neural Network for Vehicle Dynamics Modeling
 
-This repository provides a neural network training algorithm which is able to substitute a physics-based single-track (longitudinal dynamics of the aircraft R16) model for vehicle dynamics simulation.
+This repository provides a neural network training algorithm which is able to substitute a physics-based single-track (longitudinal dynamics of the aircraft F-16XL) model for vehicle dynamics simulation.
 
 ## Introduction
 
