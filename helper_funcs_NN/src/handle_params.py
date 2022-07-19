@@ -1,10 +1,5 @@
 import toml
 
-"""
-Created by: Leonhard Hermansdorfer
-Created on: 01.12.2018
-"""
-
 
 def handle_params(path_dict: dict) -> dict:
     """Reads the specified parameters located in the params folder.

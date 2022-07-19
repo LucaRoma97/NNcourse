@@ -27,23 +27,23 @@ save_scaling = true
 [NeuralNetwork_Settings]
 
 # 0 --> NO EXECUTION, 1 --> EXECUTION WITH FEEDFORWARD MODEL, 2 --> EXECUTION WITH RECURRENT MODEL
-model_mode = 2      # training of the neural network
+model_mode = 0      # training of the neural network
 run_file_mode = 2   # vehicle data (ground trouth) replay and evaluation, comparsion of the neural network
 
 # THESE ARE THE TRAIN PARAMETERS OF THE NEURAL NETWORK
 batch_size = 1000
 val_split = 0.25
 test_split = 0.1
-epochs = 100
+epochs = 1
 
 # THESE ARE THE DESIGN PARAMETERS OF THE NEURAL NETWORK
-input_shape = 9        # number of independent input parameters
+input_shape = 9         # number of independent input parameters
 input_timesteps = 5     # number of previous vehicle states to inlcude into neural network input
 output_shape = 5        # number of vehicle states (output of NN); DO NOT CHANGE
 learning_rate = 0.0004  # should not exceed 0.0005
 
 # WEIGHT REGULARIZATION
-l2regularization = 0.0
+l2regularization = 0.002
 l1regularization = 0.0
 
 # Early Stopping Patience
