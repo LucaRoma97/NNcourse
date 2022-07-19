@@ -1,6 +1,6 @@
-# Neural Network for Vehicle Dynamics Modeling
+# Introduction to Neural Network
 
-This repository provides a neural network training algorithm which is able to substitute a physics-based single-track (longitudinal dynamics of the aircraft R16) model for vehicle dynamics simulation.
+This repository provides a neural network training algorithm which is able to substitute a physics-based single-track (longitudinal dynamics of the aircraft F-16XL) model for vehicle dynamics simulation.
 
 ## Introduction
 
@@ -126,6 +126,7 @@ In general:
 ## References
 
 L. Hermansdorfer, R. Trauth, J. Betz and M. Lienkamp, "End-to-End Neural Network for Vehicle Dynamics Modeling," 2020 6th IEEE Congress on Information Science and Technology (CiSt), Agadir - Essaouira, Morocco, 2020, pp. 407-412, doi: 10.1109/CiSt49399.2021.9357196.
+
 J. Harris et al. "Aircraft System Identification using Artificial Neural Networks with Flight Test Data", 2016, Unmanned Aircraft Systems (ICUAS), Arlington, VA USA
 
 Contact:
